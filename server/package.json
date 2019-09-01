@@ -1,0 +1,30 @@
+{
+  "name": "wj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.15.0",
+    "q": "^1.5.1",
+    "qs": "^6.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "keywords": [
+    "serve"
+  ],
+  "author": "wj",
+  "license": "ISC"
+}
